@@ -1,0 +1,482 @@
+.app-btn {
+  border-radius: var(--border-radius-rg);
+  display: inline-block;
+  font-size: var(--fs-rg);
+  font-weight: var(--app-regular);
+  line-height: var(--line-height);
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: var(--padding-rg) var(--padding-md);
+  background-color: transparent;
+
+  &:focus-visible {
+    outline: 0;
+  }
+
+  &:disabled,
+  &.disabled,
+  fieldset:disabled & {
+    cursor: no-drop;
+    pointer-events: none;
+    opacity: 0.65;
+    box-shadow: none;
+  }
+
+  &-primary {
+    color: var(--white-color);
+    background-color: var(--primary-500);
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--primary-600);
+      border-color: var(--primary-600);
+    }
+
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+    &:first-child:active,
+    &.active,
+    &.show {
+      color: var(--white-color);
+      background-color: var(--primary-500);
+    }
+
+    &-outline {
+      color: var(--primary-500);
+      background-color: transparent;
+      border: 1px solid var(--primary-500);
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--primary-600);
+        border-color: var(--primary-600);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        color: var(--white-color);
+        background-color: var(--primary-500);
+      }
+    }
+
+    &-light {
+      color: var(--primary-600);
+      background-color: var(--primary-200);
+
+      &:hover {
+        background-color: var(--primary-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--primary-200);
+      }
+    }
+
+    &-link {
+      color: var(--primary-600);
+
+      &:hover {
+        background-color: var(--primary-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--primary-200);
+      }
+    }
+  }
+
+  &-secondary {
+    color: var(--white-color);
+    background-color: var(--secondary-500);
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--secondary-600);
+      border-color: var(--secondary-600);
+    }
+
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+    &:first-child:active,
+    &.active,
+    &.show {
+      color: var(--white-color);
+      background-color: var(--secondary-500);
+    }
+
+    &-outline {
+      color: var(--secondary-500);
+      background-color: transparent;
+      border: 1px solid var(--secondary-500);
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--secondary-600);
+        border-color: var(--secondary-600);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        color: var(--white-color);
+        background-color: var(--secondary-500);
+      }
+    }
+
+    &-light {
+      color: var(--secondary-600);
+      background-color: var(--secondary-200);
+
+      &:hover {
+        background-color: var(--secondary-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--secondary-200);
+      }
+    }
+
+    &-link {
+      color: var(--secondary-600);
+
+      &:hover {
+        background-color: var(--secondary-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--secondary-200);
+      }
+    }
+  }
+
+  &-success {
+    color: var(--white-color);
+    background-color: var(--green-500);
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--green-600);
+      border-color: var(--green-600);
+    }
+
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+    &:first-child:active,
+    &.active,
+    &.show {
+      color: var(--white-color);
+      background-color: var(--green-500);
+    }
+
+    &-outline {
+      color: var(--green-500);
+      background-color: transparent;
+      border: 1px solid var(--green-500);
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--green-600);
+        border-color: var(--green-600);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        color: var(--white-color);
+        background-color: var(--green-500);
+      }
+    }
+
+    &-light {
+      color: var(--green-600);
+      background-color: var(--green-200);
+
+      &:hover {
+        background-color: var(--green-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--green-200);
+      }
+    }
+
+    &-link {
+      color: var(--green-600);
+
+      &:hover {
+        background-color: var(--green-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--green-200);
+      }
+    }
+  }
+
+  &-danger {
+    color: var(--white-color);
+    background-color: var(--red-500);
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--red-600);
+      border-color: var(--red-600);
+    }
+
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+    &:first-child:active,
+    &.active,
+    &.show {
+      color: var(--white-color);
+      background-color: var(--red-500);
+    }
+
+    &-outline {
+      color: var(--red-500);
+      background-color: transparent;
+      border: 1px solid var(--red-500);
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--red-600);
+        border-color: var(--red-600);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        color: var(--white-color);
+        background-color: var(--red-500);
+      }
+    }
+
+    &-light {
+      color: var(--red-600);
+      background-color: var(--red-200);
+
+      &:hover {
+        background-color: var(--red-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--red-200);
+      }
+    }
+
+    &-link {
+      color: var(--red-600);
+
+      &:hover {
+        background-color: var(--red-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--red-200);
+      }
+    }
+  }
+
+  &-warning {
+    color: var(--white-color);
+    background-color: var(--yellow-500);
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--yellow-600);
+      border-color: var(--yellow-600);
+    }
+
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+    &:first-child:active,
+    &.active,
+    &.show {
+      color: var(--white-color);
+      background-color: var(--yellow-500);
+    }
+
+    &-outline {
+      color: var(--yellow-500);
+      background-color: transparent;
+      border: 1px solid var(--yellow-500);
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--yellow-600);
+        border-color: var(--yellow-600);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        color: var(--white-color);
+        background-color: var(--yellow-500);
+      }
+    }
+
+    &-light {
+      color: var(--yellow-600);
+      background-color: var(--yellow-200);
+
+      &:hover {
+        background-color: var(--yellow-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--yellow-200);
+      }
+    }
+
+    &-link {
+      color: var(--yellow-600);
+
+      &:hover {
+        background-color: var(--yellow-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--yellow-200);
+      }
+    }
+  }
+
+  &-info {
+    color: var(--white-color);
+    background-color: var(--cyan-500);
+
+    &:hover {
+      color: var(--white-color);
+      background-color: var(--cyan-600);
+      border-color: var(--cyan-600);
+    }
+
+    .btn-check:checked + &,
+    :not(.btn-check) + &:active,
+    &:first-child:active,
+    &.active,
+    &.show {
+      color: var(--white-color);
+      background-color: var(--cyan-500);
+    }
+
+    &-outline {
+      color: var(--cyan-500);
+      background-color: transparent;
+      border: 1px solid var(--cyan-500);
+
+      &:hover {
+        color: var(--white-color);
+        background-color: var(--cyan-600);
+        border-color: var(--cyan-600);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        color: var(--white-color);
+        background-color: var(--cyan-500);
+      }
+    }
+
+    &-light {
+      color: var(--cyan-600);
+      background-color: var(--cyan-200);
+
+      &:hover {
+        background-color: var(--cyan-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--cyan-200);
+      }
+    }
+
+    &-link {
+      color: var(--cyan-600);
+
+      &:hover {
+        background-color: var(--cyan-300);
+      }
+
+      .btn-check:checked + &,
+      :not(.btn-check) + &:active,
+      &:first-child:active,
+      &.active,
+      &.show {
+        background-color: var(--cyan-200);
+      }
+    }
+  }
+
+  &-light {
+    color: var(--black-color);
+    background-color: var(--white-color);
+  }
+
+  &-dark {
+    color: var(--white-color);
+    background-color: var(--black-color);
+  }
+}

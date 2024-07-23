@@ -1,0 +1,28 @@
+.app-text {
+  &-label {
+    color: var(--gray-500);
+    font-size: var(--app-fs-rg);
+    font-weight: var(--app-fw-md);
+    margin-bottom: var(--margin-sm);
+  }
+
+  &-input {
+    &:-webkit-autofill {
+      background-color: transparent;
+      -webkit-box-shadow: 0 0 0 50px white inset;
+      transition: background-color 5000s ease-in-out 0s;
+    }
+
+    &:focus {
+      outline: 0;
+      border-color: #86b7fe;
+      box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    }
+
+    &::placeholder {
+      color: var(--gray-400) !important;
+      font-size: var(--app-fs-sm);
+      font-weight: var(--app-fw-rg);
+    }
+  }
+}

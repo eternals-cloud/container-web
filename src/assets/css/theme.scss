@@ -1,0 +1,90 @@
+@import "colors.scss";
+@import "badge.scss";
+@import "button.scss";
+@import "form.scss";
+@import "loops.scss";
+@import "fonts.scss";
+
+:root {
+  --green-100: #f5fbf7; // 2
+  --green-200: #d7f0e0; // 4
+  --green-300: #c6e8d2; // 5
+  --green-400: #67b789; // 8
+  --green-500: #198754; // 0
+  --green-600: #007947; // 10
+
+  --red-100: #fff8f7; // 2
+  --red-200: #ffdbd5; // 4
+  --red-300: #ffccc4; // 5
+  --red-400: #f18b80; // 8
+  --red-500: #dc2626; // 0
+  --red-600: #cc0615; // 10
+
+  --yellow-100: #fffae8; // 2
+  --yellow-200: #ffeab5; // 4
+  --yellow-300: #ffdf90; // 5
+  --yellow-400: #ecc061; // 7
+  --yellow-500: #ffc700; // 0
+  --yellow-600: #977000; // 10
+
+  --cyan-100: #f3fafd; // 2
+  --cyan-200: #cceffc; // 4
+  --cyan-300: #b9e7f7; // 5
+  --cyan-400: #84cbe4; // 7
+  --cyan-500: #0891b2; // 0
+  --cyan-600: #007c9c; // 11
+
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+
+  // --black-color: #101415;
+  // --black-color: #202020;
+
+  // --white-color: #f8f9fa;
+  // --white-color: #f8fafc;
+  // --white-color: #f1faff;
+
+  --black-color: #202020;
+  --white-color: #f8f8ff;
+
+  --background-color: #f7f8fd;
+  --box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+
+  --border-radius-sm: 3px;
+  --border-radius-rg: 6px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 24px;
+  --border-radius-none: 0px;
+
+  --app-fs-sm: 12px;
+  --app-fs-rg: 14px;
+  --app-fs-md: 16px;
+  --app-fs-lg: 18px;
+
+  --app-fw-light: 300;
+  --app-fw-rg: 400;
+  --app-fw-md: 500;
+  --app-fw-bold: 600;
+  --app-fw-bolder: 900;
+
+  --padding-sm: 3px;
+  --padding-rg: 6px;
+  --padding-md: 12px;
+  --padding-lg: 24px;
+  --padding-none: 0px;
+
+  --margin-sm: 3px;
+  --margin-rg: 6px;
+  --margin-md: 12px;
+  --margin-lg: 24px;
+  --margin-none: 0px;
+
+  --line-height: 1.5;
+
+  // color: #213547;
+  // background-color: #242424;
+}
