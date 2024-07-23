@@ -41,6 +41,13 @@
   --gray-500: #6b7280;
   --gray-600: #4b5563;
 
+  --blue-100: #dbeafe; // 2
+  --blue-200: #93c5fd; // 4
+  --blue-300: #60a5fa; // 5
+  --blue-400: #2563eb; // 7
+  --blue-500: #3b82f6; // 0
+  --blue-600: #172554; // 11
+
   // --black-color: #101415;
   // --black-color: #202020;
 
@@ -60,16 +67,16 @@
   --border-radius-lg: 24px;
   --border-radius-none: 0px;
 
-  --app-fs-sm: 12px;
-  --app-fs-rg: 14px;
-  --app-fs-md: 16px;
-  --app-fs-lg: 18px;
+  --ec-fs-sm: 12px;
+  --ec-fs-rg: 14px;
+  --ec-fs-md: 16px;
+  --ec-fs-lg: 18px;
 
-  --app-fw-light: 300;
-  --app-fw-rg: 400;
-  --app-fw-md: 500;
-  --app-fw-bold: 600;
-  --app-fw-bolder: 900;
+  --ec-fw-light: 300;
+  --ec-fw-rg: 400;
+  --ec-fw-md: 500;
+  --ec-fw-bold: 600;
+  --ec-fw-bolder: 900;
 
   --padding-sm: 3px;
   --padding-rg: 6px;

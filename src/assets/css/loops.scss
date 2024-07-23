@@ -1,9 +1,9 @@
-$app-list: 100, 200, 300, 400, 500, 600, 700, 800, 900;
+$ec-list: 100, 200, 300, 400, 500, 600, 700, 800, 900;
 
 $directions-list: right, left, top, bottom;
 
-@each $i in $app-list {
-  .app-#{$i} {
+@each $i in $ec-list {
+  .ec-#{$i} {
     font-weight: $i !important;
   }
 }

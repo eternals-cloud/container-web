@@ -1,8 +1,8 @@
-.app-text {
+.ec-text {
   &-label {
     color: var(--gray-500);
-    font-size: var(--app-fs-rg);
-    font-weight: var(--app-fw-md);
+    font-size: var(--ec-fs-rg);
+    font-weight: var(--ec-fw-md);
     margin-bottom: var(--margin-sm);
   }
 
@@ -21,8 +21,8 @@
 
     &::placeholder {
       color: var(--gray-400) !important;
-      font-size: var(--app-fs-sm);
-      font-weight: var(--app-fw-rg);
+      font-size: var(--ec-fs-sm);
+      font-weight: var(--ec-fw-rg);
     }
   }
 }

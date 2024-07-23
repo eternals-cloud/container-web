@@ -1,4 +1,4 @@
-.app-badge {
+.ec-badge {
   line-height: 1;
   width: fit-content;
   text-align: center;
@@ -6,165 +6,171 @@
   vertical-align: baseline;
   text-transform: capitalize;
   border: 1px solid transparent;
-  font-size: var(--app-fs-rg);
-  font-weight: var(--app-regular);
+  font-size: var(--ec-fs-rg);
+  font-weight: var(--ec-regular);
   border-radius: var(--border-radius-rg);
   padding: var(--padding-sm) var(--padding-rg);
   margin: 1px;
 }
 
-.app-badge-primary {
-  @extend .app-badge;
+.ec-badge-primary {
+  @extend .ec-badge;
   color: var(--primary-600);
   background-color: var(--primary-300);
 }
 
-.app-badge-primary-solid {
-  @extend .app-badge;
+.ec-badge-primary-solid {
+  @extend .ec-badge;
   color: var(--white-color);
   background-color: var(--primary-500);
 }
 
-.app-badge-primary-light {
-  @extend .app-badge;
+.ec-badge-primary-light {
+  @extend .ec-badge;
   color: var(--primary-500);
   background-color: var(--primary-200);
 }
 
-.app-badge-primary-thin {
-  @extend .app-badge;
+.ec-badge-primary-thin {
+  @extend .ec-badge;
   color: var(--primary-500);
   border: 1px solid var(--primary-500);
 }
 
-.app-badge-secondary {
-  @extend .app-badge;
+.ec-badge-secondary {
+  @extend .ec-badge;
   color: var(--secondary-600);
   background-color: var(--secondary-300);
 }
 
-.app-badge-secondary-solid {
-  @extend .app-badge;
+.ec-badge-secondary-solid {
+  @extend .ec-badge;
   color: var(--white-color);
   background-color: var(--secondary-500);
 }
 
-.app-badge-secondary-light {
-  @extend .app-badge;
+.ec-badge-secondary-light {
+  @extend .ec-badge;
   color: var(--secondary-500);
   background-color: var(--secondary-200);
 }
 
-.app-badge-secondary-thin {
-  @extend .app-badge;
+.ec-badge-secondary-thin {
+  @extend .ec-badge;
   color: var(--secondary-500);
   border: 1px solid var(--secondary-500);
 }
 
-.app-badge-green {
-  @extend .app-badge;
+.ec-badge-success {
+  @extend .ec-badge;
   color: var(--green-600);
   background-color: var(--green-300);
 }
 
-.app-badge-green-solid {
-  @extend .app-badge;
+.ec-badge-success-solid {
+  @extend .ec-badge;
   color: var(--white-color);
   background-color: var(--green-500);
 }
 
-.app-badge-green-light {
-  @extend .app-badge;
+.ec-badge-success-light {
+  @extend .ec-badge;
   color: var(--green-500);
   background-color: var(--green-200);
 }
 
-.app-badge-green-thin {
-  @extend .app-badge;
+.ec-badge-success-thin {
+  @extend .ec-badge;
   color: var(--green-500);
   border: 1px solid var(--green-500);
 }
 
-.app-badge-danger {
-  @extend .app-badge;
+.ec-badge-danger {
+  @extend .ec-badge;
   color: var(--red-600);
   background-color: var(--red-300);
 }
 
-.app-badge-danger-solid {
-  @extend .app-badge;
+.ec-badge-danger-solid {
+  @extend .ec-badge;
   color: var(--white-color);
   background-color: var(--red-500);
 }
 
-.app-badge-danger-light {
-  @extend .app-badge;
+.ec-badge-danger-light {
+  @extend .ec-badge;
   color: var(--red-500);
   background-color: var(--red-200);
 }
 
-.app-badge-danger-thin {
-  @extend .app-badge;
+.ec-badge-danger-thin {
+  @extend .ec-badge;
   color: var(--red-500);
   border: 1px solid var(--red-500);
 }
 
-.app-badge-warning {
-  @extend .app-badge;
+.ec-badge-warning {
+  @extend .ec-badge;
   color: var(--yellow-600);
   background-color: var(--yellow-300);
 }
 
-.app-badge-warning-solid {
-  @extend .app-badge;
+.ec-badge-warning-solid {
+  @extend .ec-badge;
   color: var(--black-color);
   background-color: var(--yellow-500);
 }
 
-.app-badge-warning-light {
-  @extend .app-badge;
+.ec-badge-warning-light {
+  @extend .ec-badge;
   color: var(--yellow-500);
   background-color: var(--yellow-200);
 }
 
-.app-badge-warning-thin {
-  @extend .app-badge;
+.ec-badge-warning-thin {
+  @extend .ec-badge;
   color: var(--yellow-500);
   border: 1px solid var(--yellow-500);
 }
 
-.app-badge-info {
-  @extend .app-badge;
+.ec-badge-info {
+  @extend .ec-badge;
   color: var(--cyan-600);
   background-color: var(--cyan-300);
 }
 
-.app-badge-info-solid {
-  @extend .app-badge;
+.ec-badge-info-solid {
+  @extend .ec-badge;
   color: var(--white-color);
   background-color: var(--cyan-500);
 }
 
-.app-badge-info-light {
-  @extend .app-badge;
+.ec-badge-info-light {
+  @extend .ec-badge;
   color: var(--cyan-500);
   background-color: var(--cyan-200);
 }
 
-.app-badge-info-thin {
-  @extend .app-badge;
+.ec-badge-info-thin {
+  @extend .ec-badge;
   color: var(--cyan-500);
   border: 1px solid var(--cyan-500);
 }
 
-.app-badge-light {
-  @extend .app-badge;
+.ec-badge-light {
+  @extend .ec-badge;
   color: var(--black-color);
   background-color: var(--white-color);
 }
 
-.app-badge-dark {
-  @extend .app-badge;
+.ec-badge-dark {
+  @extend .ec-badge;
   color: var(--white-color);
   background-color: var(--black-color);
+}
+
+.ec-badge-link {
+  @extend .ec-badge;
+  color: var(--blue-500);
+  border: 1px solid none;
 }
