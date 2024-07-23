@@ -1,4 +1,4 @@
-import 'ForgotPassword.scss'
+import './ForgotPassword.scss'
 
 export default function ForgotPassword() {
   return (

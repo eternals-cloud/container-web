@@ -1,4 +1,4 @@
-import 'TwoFactorAuth.scss'
+import './TwoFactorAuth.scss'
 
 export default function TwoFactorAuth() {
     return (

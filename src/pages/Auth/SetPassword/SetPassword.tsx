@@ -1,4 +1,4 @@
-import 'SetPassword.scss'
+import './SetPassword.scss'
 
 export default function SetPassword() {
   return (
